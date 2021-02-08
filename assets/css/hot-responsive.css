@@ -1,0 +1,180 @@
+/* Paleta de cores */
+
+
+/* line 4, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 1em/1.2 'Montserrat', sans-serif;
+}
+
+
+/*scroll */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Responsive */
+
+.section-container {
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+    align-items: center;
+}
+
+.section-content {
+    width: 100%;
+}
+
+.footer-container {
+    margin: auto;
+    padding: 0 5rem!important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100vh!important;
+}
+
+
+/* Buttons */
+
+.btn-footer {
+    padding: 8px 10px;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background: whitesmoke;
+    color: #5E3473;
+    font-weight: 600;
+    padding: 8px 24px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.btn-footer {
+    background: #fff;
+    color: #5E3473;
+    font-weight: 700;
+    padding: 8px 24px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+
+/* socialBar */
+
+.social-bar {
+    z-index: 40000;
+    background: rgba(255, 255, 255, 0.781);
+    position: fixed;
+    top: 6rem;
+    left: 0;
+    padding: 25px 15px;
+    box-shadow: 0 0 5px rgba(77, 60, 60, 0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-bar [class^=icon] {
+    font-size: 0.9rem;
+    width: 0.9rem;
+}
+
+.social-bar div:nth-child(2),
+.social-bar div:nth-child(3),
+.social-bar div:nth-child(4) {
+    margin-top: 1em!important;
+}
+
+.social-bar div:nth-child(2),
+.social-bar div:nth-child(3),
+.social-bar div:nth-child(4) {
+    margin-top: 0.5em;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+@media (max-width: 768px) {
+    .section-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    body {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+    .section-container {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    .section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1500px) {
+    .section-container {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    .section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (min-width: 1500px) {
+    .section-container {
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+    .section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .h2,
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    body {
+        font: 1.2em/1.7 'Montserrat', sans-serif!important
+    }
+}

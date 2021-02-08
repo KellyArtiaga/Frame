@@ -1,0 +1,639 @@
+/* Paleta de cores */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('../css/fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: local('Montserrat_bold'), url('../css/fonts/Montserrat-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat_extrabold';
+    src: local('Montserrat_extrabold'), url('../css/fonts/Montserrat-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat_black';
+    src: local('Montserrat_black'), url('../css/fonts/Montserrat-Black.woff') format('woff');
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 1em/1.2 'Montserrat', sans-serif;
+    background: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+.separador {
+    white-space: nowrap;
+}
+
+h2 {
+    font: bold 1.1em/2 'Montserrat', sans-serif;
+}
+
+h2.title-header {
+    font-size: 2.0rem;
+}
+
+p:not(:last-child),
+ul {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+ul p {
+    margin: 0;
+}
+
+.txt-maior {
+    font-size: 0.8em!important;
+    font-weight: 600
+}
+
+
+/* Buttons */
+.btn-footer {
+    padding: 8px 10px;
+    margin-top: 15px;
+}
+
+.btn-footer:hover,
+.btn-footer:focus,
+.btn-footer:active {
+    background: rgb(255, 225, 0);
+    border: 1px solid rgb(255, 225, 0);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Buttons */
+
+.btn-outsystem {
+    color: #fff;
+    border: none!important;
+    background: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-outsystem:hover,
+.btn-outsystem:focus,
+.btn-outsystem:active {
+    color: var(--dark-primary-color);
+    border: none;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: whitesmoke;
+    color: #5E3473;
+    font-weight: 600;
+    padding: 8px 24px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.btn-footer,
+.btn-topo {
+    background: #5E3473;
+    color: #ffff;
+    font-weight: 700;
+    padding: 8px 24px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.icon-citacao {
+    margin-right: 25px;
+    width: 1.5em;
+    height: auto;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/novo_site/arrow_right.png')!important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/novo_site/arrow_left.png')!important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* Blocos */
+
+.bloco-bege {
+    background: #dfe8d7;
+    color: #555;
+    vertical-align: bottom;
+}
+
+.bloco-design p {
+    color: #414040;
+}
+
+.bloco-design h1 {
+    font-size: 2.5em;
+    color: #5E3473
+}
+
+.bloco-design .right {
+    padding-left: 2em
+}
+
+.banner01 {
+    border-radius: 30px 20px 0 20px;
+}
+
+.txt-maior {
+    font-size: 1.1em;
+}
+
+.bg-gray {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-family: Montserrat;
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+    height: fit-content;
+}
+
+.bg-purple {
+    width: 100%;
+    color: white;
+    font-family: Montserrat;
+    margin: 0!important;
+}
+
+.card {
+    background: #dfe8d7;
+    border-right: 8px solid #f04d52;
+    border-bottom: 8px solid #f04d52;
+    color: #797979;
+}
+
+.bloco-bege .carousel-control-next {
+    position: absolute;
+    right: 0;
+    background: green;
+}
+
+.bloco-bege .carousel-control-prev {
+    position: absolute;
+    left: 0;
+    background: green;
+}
+
+.section-funciona .card h5,
+.section-funciona .card h4 {
+    color: #f04d52;
+    font-weight: 400
+}
+
+.section-funciona .card h5 {
+    font-size: 0.9em;
+}
+
+.section-funciona .card h4 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.section-funciona .card small {
+    font-weight: bolder
+}
+
+.row .card h2 {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    /* largura da borda */
+    -webkit-text-stroke-color: #f04d52;
+    /* cor da borda */
+    position: absolute;
+    margin-top: -1.7em;
+    left: 0.5em;
+}
+
+.equal {
+    display: -webkit-inline-box!important;
+}
+
+.card p {
+    font-size: 0.9em;
+}
+
+.img-dubble {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    float: left;
+    background: url(../img/logo-sm.svg) 0 center no-repeat;
+    color: transparent;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 9;
+    margin: 1px 0;
+    text-indent: -20em;
+    transition: all 200ms ease-in-out;
+}
+
+.centro {
+    text-align: center;
+}
+
+.section-footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    float: left;
+}
+
+.bg-purple {
+    background: #5F3473;
+    color: #fff;
+    text-align: center
+}
+
+.bg-purple .row {
+    margin-top: 1rem;
+}
+
+.bg-purple .btn {
+    color: #5F3473;
+    background: #fff;
+}
+
+.none {
+    display: none;
+}
+
+a {
+    color: #fff;
+}
+
+.pad {
+    padding: 16px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+[class^=slide-] {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+[class^=slide-] li {
+    border: 0;
+    padding: 0;
+    position: absolute;
+    margin: 0 0 0 -100%;
+    opacity: 0;
+    transition: all 2s;
+    width: 100%;
+    height: 100%;
+}
+
+[class^=slide-] li:before {
+    content: none;
+}
+
+[class^=slide-] img {
+    display: block;
+}
+
+.sl-nav,
+.sl-nav2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    z-index: 3;
+    left: 0;
+    margin: 0 -30%;
+    z-index: 2000;
+    background: url(../img/prox-24px.png) center center no-repeat;
+    top: 50%;
+}
+
+.sl-nav:hover,
+.sl-nav2:hover {
+    opacity: .9;
+}
+
+.sl-nav2 {
+    right: 0;
+    left: auto;
+}
+
+.sl-nav2:before {
+    border-color: transparent transparent transparent #139bc1;
+    margin: -10px 20px 0;
+}
+
+.sl-nav {
+    transform: scaleX(-1);
+}
+
+.banner-design-sessions {
+    height: auto;
+    width: 100%!important
+}
+
+.banner01 {
+    background-image: url(../img/unimed/banners-appprefeitura-1.jpg);
+}
+
+.banner02 {
+    background-image: url(../img/unimed/banners-appprefeitura-2.jpg);
+}
+
+[class^=exemplo-] {
+    background: url(../img/unimed/banner-appunimed-1.jpg) center 40px/100% auto no-repeat;
+}
+
+h2.title {
+    font: 2.4rem/1.1 'Montserrat', sans-serif;
+    color: #5E3473;
+    line-height: 1.1;
+    font-weight: bold;
+    text-shadow: none;
+    margin: 0;
+}
+
+h5.subtitle {
+    text-shadow: none;
+    margin: 0;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.separator.orange::before,
+.separator.orange::after {
+    content: '';
+    flex: 1;
+    border-bottom: 20px solid #FF9E4F;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 20px solid #f04d52;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+.sl-nav,
+.sl-nav2 {
+    margin: 0
+}
+
+.sl-nav,
+.sl-nav2 {
+    margin: 0
+}
+
+
+/* socialBar */
+
+.social-bar {
+    z-index: 40000;
+    background: rgba(255, 255, 255, 0.781);
+    position: fixed;
+    top: 6rem;
+    left: 0;
+    padding: 25px 15px;
+    box-shadow: 0 0 5px rgba(77, 60, 60, 0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-bar img {
+    height: 0.9em;
+    width: 0.9em;
+}
+
+.social-bar div:nth-child(2),
+.social-bar div:nth-child(3),
+.social-bar div:nth-child(4) {
+    margin-top: 1em;
+}
+
+.section-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-social-item {
+    margin-bottom: 4px;
+}
+
+.section-social-link {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.comment {
+    padding: 2em;
+    border: 1px solid #22967f;
+    color: gray
+}
+
+.comment::before {
+    background: url(../img/novo_site/citacao.png) 0 center no-repeat;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 9;
+    margin: 1px 0;
+}
+
+.green {
+    color: #22967f;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-xs {
+        display: none;
+    }
+    .social-bar {
+        display: none
+    }
+    .comment_name {
+        font-weight: bolder;
+        font-size: 2em;
+        line-height: 1;
+        text-align: left;
+    }
+    .comment {
+        padding: 0em
+    }
+    .carousel-control-next {
+        margin-right: -2em;
+    }
+    .carousel-control-prev {
+        margin-left: -2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2rem
+    }
+    h2 {
+        font-size: 2.1em;
+    }
+    .bloco-design {
+        padding-top: 5em
+    }
+    .comment_name {
+        margin-left: -0.4em;
+        font-weight: bolder;
+        font-size: 3.5em;
+        line-height: 1;
+        text-align: left;
+    }
+    .comment {
+        padding: 3em 2em
+    }
+    .text.right {
+        max-width: 500px;
+        margin-left: 35px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .text.left {
+        max-width: 500px;
+        margin-right: 35px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .bloco-design .left {
+        padding-right: 4em
+    }
+    .parceria-img {
+        margin-right: 20px;
+    }
+    .section-citacao .right,
+    .bloco-design .title,
+    .bloco-design .subtitle {
+        float: right;
+    }
+    .coluna-80 {
+        flex: 1.3 1;
+    }
+    /* line 298, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+    .tam-66 {
+        flex-grow: 2;
+    }
+    /* line 301, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+    .tam-75 {
+        flex-grow: 3;
+    }
+    /* line 304, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+    .links a {
+        margin: 1px auto;
+    }
+    /* line 307, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+    ul li:before {
+        margin-top: 10px;
+    }
+    /* line 313, /home/thiago/Documentos/sitios/site-master/assets/css/hot-araujo.scss */
+    .separador:before {
+        content: "|";
+        margin: 0 8px;
+    }
+    [class^=icone-] {
+        vertical-align: sub;
+    }
+    .carousel-control-next {
+        margin-right: -5em;
+        width: auto;
+    }
+    .carousel-control-prev {
+        margin-left: -5em;
+        width: auto;
+    }
+    .bloco-design .section-container {
+        padding-top: 4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloco-design .section-container {
+        padding-top: 2em;
+    }
+    .bloco-design .left {
+        padding-left: 0
+    }
+    .bloco-design .left {
+        padding-right: 0
+    }
+    .mt-2-xs {
+        margin-top: 2rem;
+    }
+    .hidden-md {
+        display: none!important
+    }
+    body {
+        font-size: 0.9rem
+    }
+}

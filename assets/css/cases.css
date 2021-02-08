@@ -1,0 +1,377 @@
+/* line 1, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+* {
+  margin: 0; }
+
+/* line 5, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+body {
+  background: #410078;
+  color: #fff;
+  font: 16px/1.5 'Roboto', sans-serif; }
+
+/* line 11, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+main {
+  background: #f8f8f8;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  padding: 60px 0 0; }
+
+/* line 18, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+footer {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative; }
+  /* line 23, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  footer .container {
+    overflow: hidden; }
+  /* line 26, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  footer a {
+    display: block;
+    padding: 10px 18px; }
+    /* line 29, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    footer a:hover {
+      color: #f8ba00;
+      transition: .2s color ease-in-out; }
+
+/* line 36, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.container {
+  box-sizing: border-box;
+  max-width: 1188px;
+  margin: auto;
+  padding: 24px; }
+  /* line 41, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .container + .container {
+    padding-top: 0; }
+
+/* line 46, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.logo {
+  float: left;
+  background: url(../img/logo-sm.svg) 0 center no-repeat;
+  color: transparent;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 9; }
+
+/* line 57, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+header {
+  background: #222;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 30; }
+  /* line 63, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  header .container {
+    padding: 15px 24px;
+    overflow: hidden; }
+
+/* line 69, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.social {
+  margin-top: 24px; }
+
+/* line 73, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+nav {
+  float: right; }
+  /* line 75, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  nav a {
+    float: left;
+    padding: 3px 6px;
+    margin-left: 10px;
+    line-height: 24px;
+    position: relative; }
+    /* line 81, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    nav a:not(.icone-menu):hover, nav a.ativo {
+      background: #fff;
+      color: #7900DF; }
+
+/* line 88, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+a {
+  text-decoration: none; }
+
+/* line 92, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+h2 {
+  font: 700 2.7em/1.2 'Quicksand', sans-serif;
+  color: #fff;
+  text-shadow: 2px 0 #5e3473, -2px 0 #5e3473, 0 2px #5e3473, 0 -2px #5e3473;
+  margin: 0 0 16px; }
+
+/* line 99, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+p:not(:last-child) {
+  margin: 0 0 24px; }
+
+/* line 104, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.lista-cases {
+  margin: 0 -16px -16px;
+  flex-wrap: wrap;
+  line-height: 1.4; }
+  /* line 108, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 180px 60px 0;
+    opacity: 0;
+    background: rgba(255, 158, 77, 0.92);
+    top: 0;
+    color: #fff; }
+  /* line 119, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases figure {
+    background: #fff;
+    margin: 16px;
+    flex: 1;
+    position: relative;
+    overflow: hidden; }
+    /* line 125, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .lista-cases figure:first-child {
+      flex: 0 0 calc(60.2% - 32px); }
+      /* line 127, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+      .lista-cases figure:first-child figcaption {
+        background: rgba(86, 66, 114, 0.92);
+        padding-left: 150px;
+        padding-right: 150px; }
+      /* line 132, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+      .lista-cases figure:first-child a {
+        color: #ff9e4d; }
+    /* line 136, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .lista-cases figure:hover figcaption {
+      opacity: 1; }
+  /* line 140, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases h3, .lista-cases p {
+    margin: 0 0 20px; }
+  /* line 143, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases a {
+    font-weight: 700;
+    font-style: italic;
+    max-width: 250px;
+    color: #564272;
+    display: inline-block; }
+  /* line 150, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases img {
+    width: 100%;
+    height: auto;
+    display: block; }
+
+@media (max-width: 1601px) {
+  /* line 162, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases figcaption {
+    padding: 80px 40px 0; } }
+
+@media (max-width: 991px) {
+  /* line 169, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases figcaption {
+    padding: 24px 16px !important; }
+  /* line 172, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases h3, .lista-cases p {
+    margin: 0 0 10px; } }
+
+/* line 178, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.centro {
+  text-align: center; }
+
+/* line 182, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.subtitulo {
+  font: 600 20px/140% 'Montserrat', sans-serif; }
+
+/* line 186, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.none {
+  display: none; }
+
+/* line 190, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+a {
+  color: #fff; }
+
+/* line 194, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.m-left {
+  margin: 0 0 0 24px; }
+
+/* line 198, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+[class^=icone-] {
+  background: url(../img/email-24px.svg) 0 0 no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  vertical-align: bottom; }
+  /* line 204, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  [class^=icone-]:hover {
+    opacity: .8; }
+  /* line 207, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  [class^=icone-] + [class^=icone-] {
+    margin-left: 10px; }
+  /* line 210, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .social [class^=icone-] {
+    margin-top: 10px; }
+
+/* line 215, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.icone-chamada {
+  background-image: url(../img/telefone-24px.svg);
+  filter: brightness(100); }
+
+/* line 220, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.icone-local {
+  background-image: url(../img/place-24px.svg);
+  filter: brightness(100); }
+
+/* line 225, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.icone-instagram {
+  background-image: url(../img/instagram-24px.svg);
+  filter: brightness(2); }
+
+/* line 230, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.icone-facebook {
+  background-image: url(../img/facebook-24px.svg);
+  filter: brightness(2); }
+
+/* line 235, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+.icone-linkedin {
+  background-image: url(../img/linkedin-24px.svg);
+  filter: brightness(2); }
+
+@media screen and (min-width: 821px) {
+  /* line 241, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  body {
+    font-size: 20px; }
+  /* line 244, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .container {
+    padding: 32px 24px; }
+  /* line 247, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .linha {
+    display: flex;
+    margin: 0 -12px; }
+  /* line 251, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .coluna {
+    flex: 1 1;
+    margin: 0 12px; }
+  /* line 255, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .social {
+    margin-top: -64px;
+    float: right;
+    text-align: right; }
+  /* line 260, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .tam-2 {
+    flex-grow: 2.5; }
+  /* line 263, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .icone-menu {
+    display: none; }
+  /* line 266, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  nav a {
+    font-size: 14px; }
+  /* line 269, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  footer a {
+    float: left;
+    padding: 14px 18px;
+    margin: 16px 0; }
+  /* line 274, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .back-to-top-link {
+    padding: 14px;
+    float: right; } }
+
+@media screen and (min-width: 621px) {
+  /* line 281, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .lista-cases {
+    display: flex; } }
+
+@media screen and (max-width: 820px) {
+  /* line 287, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .coluna:empty, .oculta-mobile {
+    display: none; }
+  /* line 290, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .tam-2 {
+    margin-bottom: 24px; }
+  /* line 293, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .subtitulo {
+    font-size: 1em; }
+  /* line 296, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  header .container {
+    padding: 13px 16px; }
+  /* line 299, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  main {
+    padding: 56px 0 0; }
+  /* line 302, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  nav {
+    width: 60px;
+    height: 56px;
+    overflow: hidden;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    top: 0; }
+    /* line 310, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    nav + .icone-fechar {
+      display: none; }
+    /* line 313, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    nav a {
+      float: none;
+      display: block;
+      clear: both;
+      margin: 0 -12px;
+      padding: 16px;
+      position: relative;
+      text-align: center;
+      box-shadow: 0 1px inset rgba(196, 196, 196, 0.1); }
+    /* line 323, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    nav.ativo {
+      height: auto;
+      bottom: 0;
+      left: 0;
+      width: auto;
+      box-shadow: 0 0 0 999em rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.3);
+      background: rgba(48, 45, 51, 0.95); }
+  /* line 332, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .icone-menu {
+    background: none;
+    height: 56px;
+    padding: 0;
+    width: 84px;
+    opacity: 1 !important; }
+    /* line 338, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .icone-menu span, .icone-menu:before, .icone-menu:after {
+      width: 26px;
+      border: 2px solid #fff;
+      border-radius: 2px;
+      transition: all .15s ease-in-out;
+      position: absolute;
+      right: 28px; }
+    /* line 346, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .icone-menu:before {
+      content: "";
+      top: 18px; }
+    /* line 350, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .icone-menu:after {
+      content: "";
+      top: 34px; }
+    /* line 354, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .icone-menu span {
+      position: absolute;
+      top: 26px; }
+    /* line 359, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .ativo .icone-menu:before {
+      top: 26px;
+      transform: rotate(-45deg); }
+    /* line 363, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .ativo .icone-menu:after {
+      top: 26px;
+      transform: rotate(45deg); }
+    /* line 367, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .ativo .icone-menu span {
+      top: 26px;
+      transform: rotate(135deg); }
+  /* line 373, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .fundo-bloq {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 222px;
+    bottom: 0;
+    top: 0; }
+    /* line 380, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+    .ativo .fundo-bloq {
+      display: block; }
+  /* line 384, /home/thiago/Documentos/sitios/site-master/assets/css/cases.scss */
+  .back-to-top-link {
+    position: absolute;
+    bottom: 24px;
+    right: 16px; } }
+
+/*# sourceMappingURL=cases.css.map */
