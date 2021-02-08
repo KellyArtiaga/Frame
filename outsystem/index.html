@@ -49,6 +49,8 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/hot-outsystem.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/hot-responsive.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/hot-navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/loading.css" />
+
 </head>
 
 <body>
@@ -70,7 +72,10 @@
         </div>
     </header>
 
-    <!-- Content -->
+    <!-- Content -->    
+    <div id="lazyloadicon">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>    
+    </div>
     <main>
         <!-- Início -->
         <div class="image-background">
@@ -208,7 +213,9 @@
 
         <!-- JS -->
         <script type="text/javascript" src="../assets/js/script.js"></script>
-
+        
+        <!-- load -->
+        <script type="text/javascript" src="../assets/js/jquery-load.js"></script>
     </footer>
 </body>
 <script type='text/javascript'>
