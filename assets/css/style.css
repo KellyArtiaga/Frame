@@ -371,7 +371,7 @@ body:not([class]) .logo,
     text-align: center;
     color: #fff;
     z-index: 1;
-    max-width: 100%;
+    max-width: 100%!important;
 }
 
 #nossa-historia .img-carousel-02 {
@@ -383,7 +383,7 @@ body:not([class]) .logo,
     text-align: center;
     color: #fff;
     z-index: 1;
-    max-width: 100%;
+    max-width: 100%!important;
 }
 
 #nossa-historia .img-carousel-03 {
@@ -395,7 +395,7 @@ body:not([class]) .logo,
     text-align: center;
     color: #fff;
     z-index: 1;
-    max-width: 100%;
+    max-width: 100%!important;
 }
 
 #nossa-historia .img-carousel-04 {
@@ -407,7 +407,7 @@ body:not([class]) .logo,
     text-align: center;
     color: #fff;
     z-index: 1;
-    max-width: 100%;
+    max-width: 100%!important;
 }
 
 .section-home h1 {

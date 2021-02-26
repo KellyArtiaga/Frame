@@ -498,9 +498,8 @@ a {
 
 video {
     display: block;
-    width: 240px;
+    width: 100%;
     margin: auto;
-    max-width: 80%;
 }
 
 
